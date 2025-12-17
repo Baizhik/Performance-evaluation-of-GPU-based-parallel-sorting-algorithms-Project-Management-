@@ -97,7 +97,7 @@ The directory should contain the CUDA source files, compiled executables, and da
 
 Step 5: Open the Project in VS Code
 
-From the same command prompt, open the project in Visual Studio Code.
+From the same command prompt, open the project folder in Visual Studio Code.
 
 • Open the project in VS Code
 
@@ -137,6 +137,7 @@ Step 8: Check Results and Outputs
 After execution completes, the following outputs are generated.
 
 • The sorted output file is saved to the output path specified in the source code
+
 • The benchmark summary is saved as a CSV file in the benchmark results directory
 
 <img width="817" height="185" alt="image" src="https://github.com/user-attachments/assets/f7e69237-bd14-4c7c-ad85-7107fb1da305" />
@@ -166,10 +167,10 @@ The benchmarking repository contains the implementation of sequential CPU and pa
 • benchmarking/
 Root directory of the benchmarking framework
 
-• benchmarking/cpu/
+• benchmarking/CPU/
 Sequential CPU based sorting algorithm implementations
 
-• benchmarking/gpu/
+• benchmarking/GPU/
 CUDA based parallel GPU sorting algorithm implementations
 
 Overleaf Paper Files
@@ -195,6 +196,6 @@ Journal cover letter
 Reviewer response documents
 
 • plos2015.bst
-The desighn requirements of the paper from the journal
+The design requirements of the paper from the journal
 
 <img width="445" height="416" alt="image" src="https://github.com/user-attachments/assets/18a6d957-eb2e-4da1-a9b3-27e417a41e8b" />
